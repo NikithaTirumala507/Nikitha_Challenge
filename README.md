@@ -1,6 +1,6 @@
 # terraform-nginx
 
-For this assignment, I utilized Terraform as the chosen configuration management tool. Terraform, developed by HashiCorp, is an open-source infrastructure as code (IaC) tool that uses HashiCorp Configuration Language (HCL) for its syntax.
+For this task, I utilized Terraform as the chosen configuration management tool. Terraform, developed by HashiCorp, is an open-source infrastructure as code (IaC) tool that uses HashiCorp Configuration Language (HCL) for its syntax.
 
 The primary configuration file, main.tf, orchestrates the provisioning of an Amazon EC2 instance. This instance is initialized with an Amazon Linux 2 AMI and subsequently configured to install and run Nginx. The content to be served by Nginx is embedded within the user_data field, ensuring that upon instance initialization, the desired HTML content is immediately available for web access.
 
